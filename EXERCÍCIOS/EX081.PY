@@ -11,7 +11,7 @@ while True:
     r = str(input("Quer continuar? [S/N]")).upper().strip()[0]
     if r == "N": 
         break 
-print(f"Você digitou {len(numeros)} números") # ler a quantiadfe de numero
+print(f"Você digitou {len(numeros)} números") # ler a quantidade de numeros
 numeros.sort(reverse=True) #  ordem decrescente
 print(f"Os valores em ordem decrescente são: {numeros}")
 if 5 in numeros: 

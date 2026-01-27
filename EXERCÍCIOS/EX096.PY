@@ -5,10 +5,14 @@ TERRENO RETANGULAR (LARGURA E COMPRIMENTO) E MOSTRE
 A ÁREA DO TERRENO. 
 '''
 
-def area(c, l): 
-    a = c * l
-    print(f"A área do terreno é igual {a}.")
+def área(comprimento, largura): 
+    a = comprimento*largura
+    print(f"A área de um terreno {comprimento} x {largura} é de {a}.")
 
-comprimento=(input("Insira o comprimento do terreno: "))
-largura=float(input("Insira a largura do terreno: "))
 
+#programa principal
+print(" Controle de Terreno  ")
+print('-'*40)
+compri=float(input("Insira o comprimento do terreno (m): "))
+largu=float(input("Insira a largura do terreno(m): "))
+área(compri, largu)
