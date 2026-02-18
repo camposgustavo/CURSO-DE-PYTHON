@@ -3,9 +3,9 @@
 # CONTEÚDO NA TELA
 
 aluno = {} # dicionario aluno 
-aluno['nome'] = str(input('Nome do Aluno: '))
-aluno['media'] = float(input(f'Média de {aluno["nome"]}:'))
-if aluno['media'] >= 7: 
+aluno['nome'] = str(input('Nome do Aluno: ')) # adiciona o nome do aluno
+aluno['media'] = float(input(f'Média de {aluno["nome"]}:')) # calcula a média
+if aluno['media'] >= 7:  # verifica
     print(f"Situação é igual a APROVADO")
 else: 
     print(f"Situação é igual a REPROVADO")

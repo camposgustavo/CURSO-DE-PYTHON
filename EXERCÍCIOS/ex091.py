@@ -2,7 +2,7 @@
 # guarde esses resultados em um dicionario. no final, coloque esse dicionario em ordem. 
 # sabendo que o vencedor tirou o maior número no dado. 
 #biblioteca tempo para fazer as pausas
-import time
+import time 
 import random 
 
 print('-='*30)

@@ -6,14 +6,14 @@
 pessoas = []
 dados = []
 while True: 
-    dados.append(str(input("Nome: "))) 
+    dados.append(str(input("Nome: ")))  # adiciona o nome 
     dados.append(float(input("Peso: "))) 
     pessoas.append(dados[:])
     dados.clear()
     r = str(input("Quer continuar? [S/N]")).upper().strip()[0]
     if r == "N": 
         break
-print(f"Foram cadastradas {len(pessoas)} pessoas.")
+print(f"Foram cadastradas {len(pessoas)} pessoas.") # quantidade de pessoas
 for p in pessoas: 
     if p[1] >= 80: 
          print(f"{p[0]} é mais pesada que 80kg.")
